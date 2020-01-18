@@ -42,6 +42,7 @@ cd $TOMCAT_APP_PATH/webapps/
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
+echo "tomcat path:"+$TOMCAT_APP_PATH/bin/startup.sh
 sh $TOMCAT_APP_PATH/bin/startup.sh
 
 

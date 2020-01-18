@@ -36,6 +36,7 @@ rm -rf $TOMCAT_APP_PATH/webapps/foodie-shop
 
 # 复制新的工程
 cp $PROJ_PATH/foodie-shop $TOMCAT_APP_PATH/webapps/
+echo "项目路径:"+$PROJ_PATH/foodie-shop
 #cp $PROJ_PATH/order/foodie-center $TOMCAT_APP_PATH/webapps/ order与项目名对应，jenkins后台会设置项目名
 
 cd $TOMCAT_APP_PATH/webapps/

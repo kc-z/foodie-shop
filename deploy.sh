@@ -29,8 +29,8 @@ killTomcat()
 killTomcat
 
 # 删除原有工程
-rm -rf $TOMCAT_APP_PATH/webapps/ROOT
-rm rf $TOMCAT_APP_PATH/webapps/foodie-shop
+#rm -rf $TOMCAT_APP_PATH/webapps/ROOT
+rm -rf $TOMCAT_APP_PATH/webapps/foodie-shop
 
 #前端文件先注释以下代码end
 

@@ -30,13 +30,11 @@ killTomcat
 
 # 删除原有工程
 rm -rf $TOMCAT_APP_PATH/webapps/ROOT
-rm -f $TOMCAT_APP_PATH/webapps/foodie-center
 rm -f $TOMCAT_APP_PATH/webapps/foodie-shop
 
 #前端文件先注释以下代码end
 
 # 复制新的工程
-cp $PROJ_PATH/foodie-center $TOMCAT_APP_PATH/webapps/
 cp $PROJ_PATH/foodie-shop $TOMCAT_APP_PATH/webapps/
 #cp $PROJ_PATH/order/foodie-center $TOMCAT_APP_PATH/webapps/ order与项目名对应，jenkins后台会设置项目名
 
